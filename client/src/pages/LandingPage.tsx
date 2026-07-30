@@ -16,6 +16,10 @@ const SKILLS = [
   { label: "Google Cloud",tag: "Cloud Computing"   },
   { label: "Docker",     tag: "DevOps"   },
   { label: "Git",        tag: "Tooling"  },
+  { label: "Oracle Fusion", tag: "Enterprise Software"  },
+  { label: "WebGL2",     tag: "Graphics"  },
+  { label: "project management", tag: "Soft Skill"  },
+  { label: "Buisness procurement", tag: "Soft Skill"  },
 ];
 
 const PROJECTS = [
@@ -45,7 +49,7 @@ export const LandingPage = () => {
       <section className="lp-hero">
         <p className="lp-eyebrow">Hi, I'm</p>
         <h1>Eric Stout</h1>
-        <p className="lp-role">Full-Stack Developer · CS Student at ECU</p>
+        <p className="lp-role">Full-Stack Developer · CS Student at ECU · Project Assistant with Terracon Consultants, Inc</p>
         <div className="lp-hero-actions">
           <a href="#projects" className="lp-btn lp-btn-ghost">See Projects</a>
         </div>
@@ -64,6 +68,18 @@ export const LandingPage = () => {
             hands-on experience with modern web technologies and data management using the react framework. I also have experience
             with software engineering documentation, development processes, and collaborative workflows. I am passionate about
             continuing to grow as a software engineer and applying my technical skills to real-world projects and professional environments.
+          </p>
+          <p>
+            I am currently developing my own projects while also working full time as a Project Assistant at Terracon Consultants, Inc. where my
+            responsibilities include learning and helping others learn how the company's internal software system works. I also assist project
+            managers setup and maintain their projects in the system. Additionally, I work with other project support team members to find better ways
+            to use the system more efficiently. 
+          </p>
+          <p>
+            on my own time I am working on my own projects to further my learning and experiences in web development and 
+            software engineering. I use this website to post my projects in one place other than GitHub. I also use this site to post my resume
+            and other information about myself. I am always looking for new opportunities to learn and grow as a software engineer, and I am 
+            excited to see where my career takes me in the future.
           </p>
       </section>
 
@@ -100,12 +116,12 @@ export const LandingPage = () => {
 
       <section className="lp-section lp-alt" id="contact">
         <h2>Contact</h2>
-        <p>Open to internships, collaborations, and other employment opportunities.</p>
+        <p>Open employment opportunities. please reach out to me by email for a quick response.</p>
         <div className="lp-contact">
-          <a href="mailto:you@email.com">✉ eric.stout15@gmail.com</a>
-          <a href="https://github.com/EMS0515" target="_blank" rel="noreferrer">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/ericstout2003/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-          <a href="/resume">Resume ↗</a>        
+          <a href="mailto:you@email.com">eric.stout15@gmail.com</a>
+          <a href="https://github.com/EMS0515" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/ericstout2003/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="/resume">Resume</a>        
           </div>
       </section>
 

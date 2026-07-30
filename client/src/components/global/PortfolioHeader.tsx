@@ -14,8 +14,9 @@ const PortfolioHeader = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
     return (
         <header className="ph-header">
-        <h1>My Portfolio</h1>
-        <Link to="/">Home</Link>
+        <h1>
+            <Link to="/">Eric's Portfolio</Link>
+        </h1>
         <div className="lp-theme-picker">
             <button
                 className="lp-theme-toggle"
