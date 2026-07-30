@@ -1,4 +1,4 @@
-import "../styles/pyboard.css";
+import "../styles/pyboardTemp.css";
 
 function PyBoard() {
     return (
